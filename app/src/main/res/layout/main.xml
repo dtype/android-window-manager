@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/showButton"
+                android:background="@drawable/show"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/show" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/show"
+                android:id="@+id/showText"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/hideButton"
+                android:background="@drawable/hide"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/hide" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hide"
+                android:id="@+id/hideText"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/connectButton"
+                android:background="@drawable/connect"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/connect" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/connect"
+                android:id="@+id/connectText"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/alarmButton"
+                android:background="@drawable/alarm"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/alarm" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm"
+                android:id="@+id/alarmText"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/personalizeButton"
+                android:background="@drawable/paint"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/personalize" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/personalize"
+                android:id="@+id/personalizeText"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/settingButton"
+                android:background="@drawable/setting"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/setting" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/setting"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/main_text"
+                android:textAlignment="center"
+                android:id="@+id/settingText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">desktopPet</string>
+    <string name="connect">connect</string>
+    <string name="show">show</string>
+    <string name="hide">hide</string>
+    <string name="alarm">alarm</string>
+    <string name="setting">settting</string>
+    <string name="personalize">personalize</string>
+</resources>
