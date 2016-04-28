@@ -30,7 +30,7 @@
 
 7. about
 
-    I gave up developing the app on halfway for some reason and you can continue if you interested ...
+    I gave up developing the app on halfway for some reason and you can continue if you are interested ...
 
 ---
 ### final goal
