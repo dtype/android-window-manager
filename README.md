@@ -1,4 +1,4 @@
-# android-window-manager 
+# android-window-manager
 ---
 ### a sample for WindowManager on android , there is a desktop pet app for example
 ---
