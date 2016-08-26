@@ -5,6 +5,13 @@
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical">
 
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/desktop_pet_image"
+            android:background="@drawable/blueqface_01"
+            android:layout_gravity="center" />
+
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="250dp"
@@ -37,12 +44,5 @@
                     android:gravity="center_vertical|center_horizontal"
                     android:background="#33000000" />
         </LinearLayout>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:id="@+id/desktop_pet_image"
-            android:background="@drawable/blueqface_01"
-            android:layout_gravity="center" />
 
 </LinearLayout>
