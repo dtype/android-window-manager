@@ -23,7 +23,7 @@
 
 4. main activitiy
 
-    ![demo](http://d3.freep.cn/3tb_160429000143bshn562971.jpg)
+    
 
 5. show / hide
 
