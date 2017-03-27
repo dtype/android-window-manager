@@ -31,7 +31,7 @@
 
 6. result
 
-    ![demo](http://d2.freep.cn/3tb_160429000144bshn562971.jpg)
+ 
 
 7. about
 
